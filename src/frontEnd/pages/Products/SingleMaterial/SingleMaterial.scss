@@ -1,0 +1,257 @@
+.single-material-container {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+
+    h1 {
+        color: #666;
+        font-weight: bold;
+        font-size: 3em;
+        line-height: 1.8em;
+    }
+
+    .main-title {
+        padding: 3vh 0;
+        h1 {
+            margin-bottom: 0;
+        }
+        .top {
+            font-size: 5em;
+            line-height: 1em;
+        }
+        .bottom {
+            color: #007c45;
+            font-size: 2.5em;
+            line-height: 1.8em;
+        }
+    }
+
+    .section {
+        margin: 3vh 0;
+        padding: 1vh 0;
+    }
+
+    .section-1 {
+        background-color: #f0f5f0;
+        
+        .title {
+            color: #333;
+        }
+
+        .card-box {
+            display: flex;
+            justify-content: space-around;
+
+            .card {
+                img {
+                    max-width: 25vw;
+                }
+
+                h2 {
+                    font-size: 2em;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+
+    .section-2,
+    .section-3 {
+        background-color: #9ab8aa;
+        display: flex;
+        align-items: center;
+
+        .item {
+            width: 50%;
+        }
+
+        .title h1 {
+            color: #555;
+        }
+
+        img {
+            height: 60vh;
+            object-fit: cover;
+            object-position: 0% 0;
+        }
+    }
+    .section-3 {
+        background-color: white;
+
+        img {
+            object-position: 100% 0;
+        }
+
+        .title {
+            .top {
+                font-size: 4em;
+                line-height: 1.3em;
+            }
+
+            .bottom {
+                color: #888;
+                font-size: 2.5em;
+                line-height: 1.5em;
+            }
+        }
+    }
+
+    .section-4 {
+        background-color: #a4b8c4;
+
+        img {
+            max-height: 70vh;
+        }
+    }
+
+    .section-5 {
+        padding: 5vh;
+
+        .title {
+            .top {
+                color: black;
+                font-size: 5em;
+                line-height: 1em;
+                margin-bottom: 2vh;
+            }
+
+            .bottom {
+                font-size: 2em;
+                line-height: 1.3em;
+            }
+        }
+
+        img {
+            max-width: 90%;
+        }
+    }
+}
+
+@media all and (max-width: 1099px) {
+    .single-material-container {
+        .section-2,
+        .section-3 {
+            .title h1 {
+                font-size: 2em;
+            }
+        }
+        .section-3 {
+            .title {
+                .top {
+                    font-size: 3em;
+                    line-height: 1.3em;
+                }
+
+                .bottom {
+                    color: #888;
+                    font-size: 2em;
+                    line-height: 1.5em;
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 799px) {
+    .single-material-container {
+        .section-1 .card-box {
+            flex-direction: column;
+
+            .card img {
+                max-width: 80%;
+            }
+        }
+
+        .section-2 {
+            .title {
+                order: 2;
+            }
+
+            img {
+                order: 1;
+            }
+        }
+
+        .section-2,
+        .section-3 {
+            flex-direction: column;
+            .item {
+                width: 100%;
+            }
+
+            img {
+                height: 45vh;
+            }
+
+            .title {
+                margin: 2vh 0;
+            }
+        }
+
+        .section-5 {
+            padding: 1vh;
+        }
+    }
+}
+
+@media all and (max-width: 599px) {
+    .single-material-container {
+        .section-2,
+        .section-3 {
+            img {
+                height: 30vh;
+            }
+        }
+        .section-5 {
+            .title {
+                .top {
+                    font-size: 4em;
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 499px) {
+    .single-material-container {
+        h1 {
+            font-size: 2.5em;
+        }
+        .main-title .bottom {
+            font-size: 1.5em;
+        }
+        .section-2,
+        .section-3 {
+            img {
+                height: 25vh;
+            }
+        }
+        .section-3 {
+            .title {
+                .top {
+                    font-size: 2.5em;
+                }
+                .bottom {
+                    font-size: 2em;
+                }
+            }
+        }
+        .section-4 {
+            img {
+                max-height: 35vh;
+            }
+        }
+        .section-5 {
+            .title {
+                .top {
+                    font-size: 3em;
+                }
+    
+                .bottom {
+                    font-size: 1.2em;
+                    line-height: 1.3em;
+                }
+            }
+        }
+    }
+}

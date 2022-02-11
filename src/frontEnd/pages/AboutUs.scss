@@ -1,0 +1,386 @@
+.aboutus-container {
+  .abouts-show {
+    height: 100%;
+    width: 100%;
+    margin-top: calc(20vh);
+    height: calc(100vh - 81px);
+  }
+
+  .abouts-show .title {
+    font-size: 90px;
+  }
+
+  .abouts-show .content {
+    font-size: 40px;
+  }
+
+  .fade-in-out {
+    animation: fadeinout 2.5s linear 1 forwards;
+  }
+
+  .fade-in {
+    animation: fadein 1s linear 1 forwards;
+  }
+
+  .fade-out {
+    animation: fadeout 1s linear 1 forwards;
+  }
+
+  @keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeout {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  @keyframes fadeinout {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+}
+
+@media only screen and (max-width: 690px) {
+  .aboutus-container {
+    h1 {
+      font-size: 42px;
+      font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue",
+        "Helvetica", "Arial", sans-serif;
+    }
+
+    h2 {
+      font-size: 36px;
+    }
+
+    h3 {
+      font-size: 20px;
+    }
+
+    .fade-in {
+      .aboutus-item {
+        width: 100%;
+        min-height: 600px;
+        height: auto;
+        padding: 50px 1% 5% 1%;
+      }
+
+      .odd-item {
+        background-color: rgba(221, 221, 221, 0.6);
+      }
+
+      .even-item {
+        background-color: rgba(40, 42, 53, 0.7);
+      }
+
+      #aboutus-item-0 {
+        .aboutus-item-title {
+          color: #5f9ea0;
+          width: 100%;
+          text-align: left;
+          padding-left: 2%;
+          margin: 0;
+        }
+
+        hr {
+          margin: 0px 0px 20px 2%;
+          width: 50%;
+          background-color: #5f9ea0;
+          height: 2px;
+          border: none;
+        }
+      }
+
+      #aboutus-item-1 {
+        .aboutus-item-title {
+          color: white;
+          width: 100%;
+          text-align: right;
+          padding-right: 2%;
+          margin: 0;
+        }
+
+        hr {
+          margin: 0px 0px 20px calc(48%);
+          width: 50%;
+          background-color: white;
+          height: 2px;
+          border: none;
+        }
+
+        h2,
+        h3 {
+          color: white !important;
+        }
+      }
+
+      #aboutus-item-2 {
+        .aboutus-item-title {
+          color: #282a35;
+          width: 100%;
+          text-align: center;
+          margin: 0;
+        }
+
+        hr {
+          margin: 0px auto 20px auto;
+          width: 50%;
+          background-color: #282a35;
+          height: 2px;
+          border: none;
+        }
+      }
+    }
+
+    .aboutus-item {
+      .abouts-item-content {
+        width: 100%;
+        height: auto;
+        margin: 5% 0 0 0;
+        padding: 0 5% 0 5%;
+      }
+
+      .abouts-item-img {
+        width: 100%;
+        height: auto;
+        max-height: 300px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .aboutus-container {
+    h1 {
+      font-size: 80px;
+      font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue",
+        "Helvetica", "Arial", sans-serif;
+    }
+
+    h2 {
+      font-size: 52px;
+    }
+
+    h3 {
+      font-size: 40px;
+    }
+
+    .fade-in {
+      .aboutus-item {
+        width: 100%;
+        margin: auto;
+        height: auto;
+        padding: 50px 10% 5% 10%;
+      }
+
+      .odd-item {
+        background-color: rgba(221, 221, 221, 0.6);
+      }
+
+      .even-item {
+        background-color: rgba(40, 42, 53, 0.7);
+      }
+
+      #aboutus-item-0 {
+        .aboutus-item-title {
+          color: #5f9ea0;
+          width: 100%;
+          text-align: left;
+          padding-left: 2%;
+          margin: 0;
+        }
+
+        hr {
+          margin: 0px 0px 20px 2%;
+          width: 50%;
+          background-color: #5f9ea0;
+          height: 2px;
+          border: none;
+        }
+      }
+
+      #aboutus-item-1 .aboutus-item-title {
+        color: white;
+        width: 100%;
+        text-align: right;
+        padding-right: 2%;
+        margin: 0;
+      }
+    }
+  }
+
+  #aboutus-item-1 {
+    hr {
+      margin: 0px 0px 20px calc(48%);
+      width: 50%;
+      background-color: white;
+      height: 2px;
+      border: none;
+    }
+
+    h2,
+    h3 {
+      color: white !important;
+    }
+  }
+
+  #aboutus-item-2 .aboutus-item-title {
+    color: #282a35;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+
+  .aboutus-container {
+    .fade-in #aboutus-item-2 hr {
+      margin: 0px auto 20px auto;
+      width: 50%;
+      background-color: #282a35;
+      height: 2px;
+      border: none;
+    }
+
+    .aboutus-item {
+      .abouts-item-content {
+        width: 100%;
+        height: auto;
+        margin: 5% 0 0 0;
+        padding: 0 2% 0 2%;
+      }
+
+      .abouts-item-img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 690px) and (max-width: 1280px) {
+  .aboutus-container {
+    h1 {
+      font-size: 56px;
+      font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue",
+        "Helvetica", "Arial", sans-serif;
+    }
+
+    h2 {
+      font-size: 35px;
+    }
+
+    h3 {
+      font-size: 24px;
+    }
+
+    .fade-in {
+      .aboutus-item {
+        width: 100%;
+        margin: auto;
+        height: auto;
+        padding: 50px 2% 5% 2%;
+      }
+
+      .odd-item {
+        background-color: rgba(221, 221, 221, 0.6);
+      }
+
+      .even-item {
+        background-color: rgba(40, 42, 53, 0.7);
+      }
+
+      #aboutus-item-0 {
+        .aboutus-item-title {
+          color: #5f9ea0;
+          width: 100%;
+          text-align: left;
+          padding-left: 2%;
+          margin: 0;
+        }
+
+        hr {
+          margin: 0px 0px 20px 2%;
+          width: 50%;
+          background-color: #5f9ea0;
+          height: 2px;
+          border: none;
+        }
+      }
+
+      #aboutus-item-1 .aboutus-item-title {
+        color: white;
+        width: 100%;
+        text-align: right;
+        padding-right: 2%;
+        margin: 0;
+      }
+    }
+  }
+
+  #aboutus-item-1 {
+    hr {
+      margin: 0px 0px 20px calc(48%);
+      width: 50%;
+      background-color: white;
+      height: 2px;
+      border: none;
+    }
+
+    h2,
+    h3 {
+      color: white !important;
+    }
+  }
+
+  #aboutus-item-2 .aboutus-item-title {
+    color: #282a35;
+    width: 100%;
+    text-align: center;
+    margin: 0;
+  }
+
+  .aboutus-container {
+    .fade-in #aboutus-item-2 hr {
+      margin: 0px auto 20px auto;
+      width: 50%;
+      background-color: #282a35;
+      height: 2px;
+      border: none;
+    }
+
+    .aboutus-item {
+      .abouts-item-content {
+        width: 100%;
+        height: auto;
+        margin: 5% 0 0 0;
+        padding: 0 2% 0 2%;
+      }
+
+      .abouts-item-img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}

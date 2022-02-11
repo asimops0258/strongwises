@@ -1,0 +1,13 @@
+$middle-media:1080px;
+$big-media:1280px;
+$menu-height:320px;
+$small-nav-bar-height:70px;
+$big-nav-bar-height:80px;
+$nav-bar-width:100vw;
+
+$footer-bar-height:250px;
+$footer-bar-width:100vw;
+
+$small-layout-min-main:calc(100vh - #{$small-nav-bar-height} - #{$footer-bar-height} - 37px);
+$big-layout-min-main:calc(100vh - #{$big-nav-bar-height} - #{$footer-bar-height} - 37px);
+

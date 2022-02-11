@@ -1,0 +1,51 @@
+.installation_notes-container{
+    .installation_notes-item-img{
+        width: 100%;
+        height: 335px;
+        margin-bottom: 5%;
+        background-position: center center;
+        background-size: 1920px 335px;
+        background-repeat: no-repeat;
+    }
+    .installation_notes-item-title{
+        width: 100%;
+        margin: 5% 0px;
+        text-align: center;
+        h1{
+            font-weight:600;
+            color: #007c45;
+            font-size: 5em;  
+        }
+        a{
+            color: #007c45;
+            &:hover{
+                color: #74B247;
+            }
+        }
+    }
+    @media all and (min-width: 480px) and (max-width: 959px) {
+        .installation_notes-item-img{
+            overflow: hidden;
+            height: 200px;
+        }
+        .installation_notes-item-title{
+            margin: 4% 0px;
+            a{
+                font-size: 2.5em;  
+            }
+
+        }
+    }
+    @media all and (max-width: 480px) {
+        .installation_notes-item-img{
+            overflow: hidden;
+            height: 175px;
+        }
+        .installation_notes-item-title{
+            margin: 2.5% 0px;
+            a{
+                font-size: 2em;  
+            }
+        }
+    }
+}

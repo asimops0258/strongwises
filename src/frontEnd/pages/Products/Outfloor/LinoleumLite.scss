@@ -1,0 +1,411 @@
+@import "./FontBasic.scss";
+@import "./../../../Layout/LayoutParameter.scss";
+
+.linoleum-lite-container{
+    width: 100%;
+    background-color:white;
+    margin: 0 auto 0 auto;
+
+    @media only screen and (max-width: 760px) {
+
+        .linoleum-section-0{
+            width: 100%;
+            min-height: 50vh;
+            background-color: #eff2ed;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            padding: 5% 2% 5% 2%;
+
+            img{
+                margin: 0 auto 0 auto;
+                width: 80%;
+            }
+        }
+    
+        .linoleum-section-1{
+            width: 100%;
+            min-height: 50vh;
+            background-color: white;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            padding: 5% 2% 5% 2%;
+
+            .content{
+
+                .left{
+                    width: 100%;
+                    text-align: left;
+                    img{
+                        width: 80%;
+                        max-height: 200px;
+                    }
+
+                    .title{
+                        width: 100%;
+                        text-align: left;
+                        display: flex;
+                        flex-wrap: wrap;
+                        align-items: flex-end;
+                        .large-title{
+                            margin: 0;
+                            margin-left: 15px;
+                            font-size: 4em;
+                            font-weight: 900;
+                        }
+    
+                        .middle-content{
+                            margin: 0px 15px 0px 15px;
+                        }
+                    }
+                }
+                
+                .right{
+                    width: 100%;
+                    margin-top: 5vh;
+
+                    .large-title{
+                        margin: 0;
+                        margin-right: 15px;
+                        font-size: 5em;
+                        font-weight: 900;
+                        text-align: right;
+                        background: linear-gradient(to top,#E627F9, #3388FC );
+                        background: -webkit-linear-gradient(to top,#E627F9, #3388FC);
+                        background-clip: text;
+                        -webkit-background-clip: text;
+                        color: transparent;
+                    }
+                    .descript{
+                        width: 100%;
+                        .middle-content{
+                            text-align: right;
+                            padding-right: 13px;
+                        }
+                    }
+
+                    img{
+                        width: 80%;
+                        display: block;
+                        margin: 0 0 0 auto;
+                    }
+                }
+            }
+
+
+        }
+
+        .linoleum-section-2{
+            background-color: #eff2ed;
+            min-height: 50vh;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            padding: 5% 2% 5% 2%;
+
+            div{
+                width: 100%;
+            }
+
+            .middle-title{
+                margin:10px 0 10px 0;
+            }
+
+        }
+
+        
+    
+        .linoleum-section-3{
+            width: 100%;
+            min-height: 50vh;
+            background-color: white;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            padding: 5% 2% 5% 2%;
+
+            .left{
+                margin-bottom: 20px;
+                .large-title{
+                    width: 90%;
+                    margin: 0 auto 0 auto;
+                }
+            }
+            .right{
+                width: 100%;
+                margin: 0 auto 0 auto;
+                img{
+                    width: 25%;
+                    margin: 5%;
+                    height: auto;
+                }
+
+                .large-title {
+                    margin: 5% auto 0 auto;
+                }
+            }
+        }
+    
+        .linoleum-section-4{
+            width: 100%;
+            background-color: #eff2ed;
+            min-height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 5% 2% 5% 2%;
+
+            .large-title{
+                margin: 0 auto 0 auto;
+                width: 90%;
+                word-wrap: break-word;
+                font-weight: bold;
+            }
+            .content{
+                width: 100%;
+                .left{
+                    img{
+                        width: 100%;
+                        max-width: 350px;
+                        height: auto;
+                        margin: 1%;
+                    }
+                }
+                .right{
+                        margin-top: 20px;
+                        .middle-content{
+                            width: 80%;
+                            margin: 0 auto 0 auto;
+                        }
+                }
+            }
+        }
+    
+    }
+    @media only screen and (min-width: 760px) {
+        
+
+        .linoleum-section-0{
+            width: 100%;
+            min-height: 50vh;
+            background-color: #eff2ed;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            padding: 5% 2% 5% 2%;
+
+            div{
+                width: 100%;
+                max-width: 1000px;
+                padding:50px 0;
+                img{
+                    margin: 0 auto 0 auto;
+                    width: 80%;
+                }
+            }
+
+        }
+    
+        .linoleum-section-1{
+            width: 100%;
+            min-height: 50vh;
+            background-color: white;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            padding: 5% 2% 5% 2%;
+
+            .content{
+                max-width: 1000px;
+                margin: 0 auto 0 auto;
+                .left{
+                    width: 100%;
+                    text-align: left;
+                    img{
+                        width: 80%;
+                        max-height: 200px;
+                    }
+
+                    .title{
+                        width: 100%;
+                        text-align: left;
+                        display: flex;
+                        flex-wrap: wrap;
+                        align-items: flex-end;
+                        .large-title{
+                            margin: 0;
+                            margin-left: 15px;
+                            font-size: 5em;
+                            font-weight: 900;
+                        }
+    
+                        .middle-content{
+                            margin-left: 15px;
+                            font-size: 1.6em;
+                        }
+                    }
+                }
+                
+                .right{
+                    width: 100%;
+                    margin-top: 5vh;
+
+                    .large-title{
+                        margin: 0;
+                        margin-right: 15px;
+                        font-size: 7em;
+                        font-weight: 900;
+                        text-align: right;
+                        background: linear-gradient(to top,#E627F9, #3388FC );
+                        background: -webkit-linear-gradient(to top,#E627F9, #3388FC);
+                        background-clip: text;
+                        -webkit-background-clip: text;
+                        color: transparent;
+                    }
+                    .descript{
+                        width: 100%;
+                        .middle-content{
+                            text-align: right;
+                            padding-right: 13px;
+                            font-size: 1.6em;
+                        }
+                    }
+
+                    img{
+                        width: 80%;
+                        display: block;
+                        margin: 0 0 0 auto;
+                    }
+                }
+            }
+
+
+        }
+
+        .linoleum-section-2{
+            background-color: #eff2ed;
+            min-height: 50vh;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            padding: 5% 2% 5% 2%;
+
+            div{
+                max-width: 1000px;
+                margin: 0 auto 0 auto;
+                width: 100%;
+    
+                .middle-title{
+                    margin:20px 0 20px 0;
+                }
+            }
+
+
+        }
+
+        
+    
+        .linoleum-section-3{
+            width: 100%;
+            min-height: 50vh;
+            background-color: white;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            padding: 5% 2% 5% 2%;
+
+            div{
+                width: 100%;
+                max-width: 1000px;
+                margin: 0 auto 0 auto;
+                .left{
+                    margin-bottom: 20px;
+                    .large-title{
+                        width: 90%;
+                        margin: 0 auto 0 auto;
+                    }
+                }
+                .right{
+                    width: 100%;
+                    margin: 0 auto 0 auto;
+                    img{
+                        width: 20%;
+                        height: auto;
+                        margin: 2.5%;
+                    }
+
+                    .large-title {
+                        margin: 5% auto 0 auto;
+                    }
+                }
+            }
+
+        }
+    
+        .linoleum-section-4{
+            width: 100%;
+            background-color: #eff2ed;
+            min-height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 5% 2% 5% 2%;
+
+            .large-title{
+                margin: 0 auto 0 auto;
+                width: 90%;
+                word-wrap: break-word;
+                font-weight: bold;
+            }
+            .content{
+                width: 100%;
+                .left{
+                    img{
+                        width: 100%;
+                        max-width: 550px;
+                        height: auto;
+                        margin: 1%;
+                    }
+                }
+                .right{
+                    margin-top: 20px;
+                    .middle-content{
+                        width: 80%;
+                        margin: 0 auto 0 auto;
+                    }
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-height: 800px) {
+        .linoleum-section-0{
+            min-height: calc(90vh - #{$small-nav-bar-height});
+            padding: 0 !important;
+        }
+        .linoleum-section-1{
+            min-height: calc(90vh - #{$small-nav-bar-height});
+            padding: 0 !important;
+        }
+        .linoleum-section-2{
+            min-height: calc(90vh - #{$small-nav-bar-height});
+            padding: 0 !important;
+        }
+        .linoleum-section-3{
+            min-height: calc(90vh - #{$small-nav-bar-height});
+            padding: 0 !important;
+        }
+        .linoleum-section-4{
+            min-height: calc(90vh - #{$small-nav-bar-height});
+            padding: 0 !important;
+        }
+        .linoleum-section-5{
+            min-height: calc(90vh - #{$small-nav-bar-height});
+            padding: 0 !important;
+        }
+    }
+}
+

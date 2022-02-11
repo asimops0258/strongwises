@@ -1,0 +1,109 @@
+
+//視窗大小
+$big-media:1280px;
+$middle-media:760px;
+
+//中螢幕 760px ~ 
+@media only screen and (min-width: $middle-media){
+    $large-title:4.5em;
+    $middle-title:3em;
+    $small-title:2.5em;
+
+    $large-content:4em;
+    $middle-content:2em;
+    $small-content:1em;
+
+    //訂定文字大小
+    .large-title{
+        font-size: $large-title;
+        font-weight: bold;
+    }
+
+    .middle-title{
+        font-size: $middle-title;
+        font-weight: bold;
+    }
+
+    .small-title{
+        font-size: $small-title;
+        font-weight: bold;
+    }
+
+    .large-content{
+        font-size: $large-content;
+    }
+
+    .middle-content{
+        font-size: $middle-content;
+    }
+
+    .small-content{
+        font-size: $small-content;
+    }
+}
+
+//小螢幕 0px ~ 760px
+@media only screen and (max-width:$middle-media) {
+    $large-title:3em;
+    $middle-title:2em;
+    $small-title:2em;
+
+    $large-content:3em;
+    $middle-content:1.5em;
+    $small-content:1em;
+    //訂定文字大小
+    .large-title{
+        font-size: $large-title;
+        font-weight: bold;
+    }
+
+    .middle-title{
+        font-size: $middle-title;
+        font-weight: bold;
+    }
+
+    .small-title{
+        font-size: $small-title;
+        font-weight: bold;
+    }
+
+    .large-content{
+        font-size: $large-content;
+    }
+
+    .middle-content{
+        font-size: $middle-content;
+    }
+
+    .small-content{
+        font-size: $small-content;
+    }
+}
+
+
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+//文字顏色區
+.font-dark-green{
+	color:#007c45;
+}
+
+.font-light-green{
+	color: #74b247;
+}
+
+.font-black{
+	color: black;
+}
+
+.font-gray{
+	color: gray;
+}
+
+.font-white{
+	color: white;
+}

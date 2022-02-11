@@ -1,0 +1,18 @@
+export default {
+    "aboutUs.msg0": "Strong and wise",
+    "aboutUs.msg1": "renovate, eco-friend, saving earth",
+    "aboutUs.msg2": "First in",
+    "aboutUs.msg3": "the world",
+    "aboutUs.msg4": "Fast fashion speed up our Earth’s destruction",
+    "aboutUs.msg5": "First in the world",
+    "aboutUs.msg6": "Uses second hand garment and fabric to produce outdoor deck boards",
+    "aboutUs.msg7": "Sustainability",
+    "aboutUs.msg8": "Recycle bottle can turn into clothing",
+    "aboutUs.msg9": "But is landfill or incinerator the final destination for garments?",
+    "aboutUs.msg10": "No, Strong and Wise did it.",
+    "aboutUs.msg11": "Dr. Lin is able to turn used garments into a more longevity",
+    "aboutUs.msg12": "and sustainability building material.",
+    "aboutUs.msg13": "Eco-friendly",
+    "aboutUs.msg14": "More sturdy, more eco-friendly, and more environmental friendly",
+    "aboutUs.msg15": "Choose E F Wood, not just a sturdy building material and also help on salving Earth",
+}

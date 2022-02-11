@@ -1,0 +1,82 @@
+
+.home-container{
+    .home-item-upside{ 
+        width: 100%;
+        height: auto;
+        min-height: 50%;
+        text-align: left; 
+        img{
+        width: 100%;
+        height: auto;
+        background-color:white;
+        }
+    }
+    .home-item-down{
+        display:flex;
+        justify-content:space-around;
+        width: 100%;
+        height: auto;
+        .home-item-right{
+            width: 50%;
+            img{
+                width: 100%;
+            }
+            &:hover{
+                opacity: 0.8;
+            }
+        }
+        .home-item-left{
+            width: 50%;
+            img{
+                width: 100%;
+            }
+            &:hover{
+                opacity: 0.8;
+            }
+        }
+    }
+    @media all and (max-width: 960px) {
+        .home-item-upside{
+            width: 98%;
+            height: 40%;
+            margin-top: 1%; 
+            margin-left: 1%;   
+            margin-right: 1%;
+            
+        }
+        .home-item-down{
+            flex-direction:column;
+            margin-bottom: 1%; 
+            .home-item-right{
+                width: 98%;
+                margin-left: 1%;
+            }
+            .home-item-left{
+                width: 98%;
+                margin-left: 1%;
+                margin-bottom: 1%;
+            }
+        }
+    
+    }
+}
+/*
+.home-item-Carousel_1{
+                img{
+                    content: url("../images/Carousel/首頁\ -\ 燈箱1_RWD.png");
+                }
+            }
+            .home-item-Carousel_2{
+                img{
+                    content: url("../images/Carousel/首頁\ -\ 燈箱2_RWD.png");
+                }
+            }    
+            .home-item-Carousel_3{
+                img{
+                    content: url("../images/Carousel/首頁\ -\ 燈箱3_RWD.png");
+                }
+            }  
+*/
+
+
+

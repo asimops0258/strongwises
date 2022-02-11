@@ -1,0 +1,18 @@
+:root{
+    --progressOpacity:0;
+}
+.scrolled-container{
+
+    .first-scrolled-item {
+        opacity: 1 !important;
+    }
+    
+    .scrolled-item{
+        opacity: calc(var(--progressOpacity) * 1);
+    }
+    
+    .scrolled-item-img{
+        opacity: 1 !important;
+    }
+}
+

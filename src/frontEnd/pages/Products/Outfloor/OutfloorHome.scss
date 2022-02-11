@@ -1,0 +1,21 @@
+.out-floor-home-container{
+    width: 96%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 81px - 228px);
+    border: none;
+    margin: 20px auto 20px auto;
+
+    .green-title{
+        color: green;
+    }
+
+    .rainbow-title{
+        
+        &:nth-child(even){
+            color: green;
+        }
+    }
+}

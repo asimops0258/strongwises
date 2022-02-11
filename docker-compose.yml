@@ -1,0 +1,29 @@
+version: "3"
+
+services:
+  backend:
+    restart: always
+    build: .
+    entrypoint: ["npm", "run", "dev-backend"]
+    volumes:
+      - "./:/usr/src/app"
+      - "/usr/src/app/node_modules"
+    env_file:
+      - .env
+    ports:
+      - "${BACK_END_PORT}:${BACK_END_PORT}"
+  frontend:
+    restart: always
+    build: .
+    entrypoint: ["npm", "run", "dev-frontend"]
+    volumes:
+      - "./:/usr/src/app"
+      - "/usr/src/app/node_modules"
+    env_file:
+      - .env
+    depends_on: 
+      - backend
+    ports:
+      - "${FRONT_END_PORT}:${FRONT_END_PORT}"
+    
+

@@ -1,0 +1,404 @@
+@import "./FontBasic.scss";
+@import "./../../../Layout/LayoutParameter.scss";
+
+.linoleum-container{
+    width: 100%;
+    background-color:white;
+    margin: 0 auto 0 auto;
+
+    @media only screen and (max-width: 760px) {
+
+        .linoleum-section-0{
+            width: 100%;
+            min-height: 50vh;
+            background-color: #eff2ed;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            img{
+                margin: 0 auto 0 auto;
+                width: 80%;
+            }
+
+            .title{
+                font-weight: bold;
+                font-size: 2.5em;
+            }
+
+            .title-2{
+                font-weight: bold;
+                font-size:3.5em;
+            }
+        }
+    
+        .linoleum-section-1{
+            width: 100%;
+            min-height: 50vh;
+            background-color: white;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            padding: 5% 2% 5% 2%;
+
+            .content{
+                .large-title{
+                    margin:50px 0 50px 0 ;
+                }
+                .left{
+                    width: 100%;
+                    text-align: left;
+                    img{
+                        width: 80%;
+                        max-height: 200px;
+                    }
+                }
+                
+                .right{
+                    width: 98%;
+                    .descript{
+                        margin-top: 10vh;
+                        width: 100%;
+                        .middle-content{
+                            text-align: right;
+                            padding-right: 13px;
+                            color: #799c85;
+                        }
+                    }
+                }
+            }
+
+
+        }
+
+        .linoleum-section-2{
+            background-color: #eff2ed;
+            min-height: 50vh;
+            padding: 5% 2% 5% 2%;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            div{
+                width: 100%;
+            }
+            .large-title{
+                width: 100%;
+                text-align: left;
+                color: #74b247;
+                padding-left: 40px;
+                margin: 10px 0 10px 0;
+            }
+        }
+
+        
+    
+        .linoleum-section-3{
+            width: 100%;
+            min-height: 50vh;
+            padding: 5% 2% 5% 2%;
+            background-color: white;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            .left{
+                margin-bottom: 20px;
+                .large-title{
+                    width: 90%;
+                    margin: 0 auto 0 auto;
+                }
+            }
+            .right{
+                width: 90%;
+                margin: 0 auto 0 auto;
+                img{
+                    width: 30%;
+                    height: auto;
+                    margin: 5%;
+                }
+            }
+        }
+    
+        .linoleum-section-4{
+            width: 100%;
+            background-color: #eff2ed;
+            min-height: 50vh;
+            padding: 5% 2% 5% 2%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            .large-title{
+                max-width: 1000px;
+                margin: 0 auto 0 auto;
+                width: 90%;
+                word-wrap: break-word;
+            }
+            .content{
+                width: 100%;
+                .left{
+                    img{
+                        width: 45%;
+                        max-width: 250px;
+                        height: auto;
+                        margin: 1%;
+                    }
+                }
+                .right{
+                    div{
+                        margin-top: 50px;
+                    }
+                }
+            }
+        }
+    
+        .linoleum-section-5{
+            width: 100%;
+            height: auto;
+            min-height: 50vh;
+            padding: 5% 2% 5% 2%;
+            background-color: white;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: center;
+            .right{
+                display: flex;
+                justify-content: center;
+                width: 90%;
+                margin: 10% auto 0 auto;
+                flex-wrap: wrap;
+                
+                div{
+                    width: 46%;
+                    min-width: 220px;
+                    max-width: 220px;
+                    border: 1px solid black;
+                    border-radius: 3em;
+                    padding: 10px;
+                    margin: 10px 2% 10px 2%;
+                    h3{
+                        margin: 0;
+                    }
+                }
+            }
+    
+        }
+    }
+    @media only screen and (min-width: 760px) {
+        
+        .linoleum-section-0{
+            width: 100%;
+            min-height: 50vh;
+            background-color: #eff2ed;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            justify-content: center;
+            padding: 5% 2% 5% 2%;
+
+            img{
+                margin: 0 auto 0 auto;
+                width: 80%;
+                max-width: 1000px;
+            }
+        }
+    
+        .linoleum-section-1{
+            width: 100%;
+            min-height: 100vh;
+            background-color: white;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            padding: 50px 0 50px 0;
+            justify-content:center;
+
+
+            .content{
+                .large-title{
+                    margin:50px 0 50px 0 ;
+                }
+                .left{
+                    width: 100%;
+                    text-align: left;
+                    img{
+                        width: 80%;
+                        max-width: 1000px;
+                        max-height: 300px;
+                    }
+                }
+                
+                .right{
+                    width: 98%;
+                    .descript{
+                        margin-top: 10vh;
+                        width: 100%;
+                        .middle-content{
+                            text-align: right;
+                            padding-right: 13px;
+                            color: #799c85;
+                        }
+                    }
+                }
+            }
+
+
+        }
+
+        .linoleum-section-2{
+            background-color: #eff2ed;
+            min-height: 100vh;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            padding: 50px 0 50px 0;
+
+            div{
+                width: 100%;
+                max-width: 1000px;
+                margin: 0 auto 0 auto;
+            }
+            .large-title{
+                width: 100%;
+                text-align: left;
+                color: #74b247;
+                padding-left: 40px;
+
+            }
+
+            .content{
+                width: 100%;
+                font-size: 3em;
+                text-align: center;
+
+            }
+
+        }
+
+        
+    
+        .linoleum-section-3{
+            width: 100%;
+            min-height: 100vh;
+            background-color: white;
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            padding: 50px 0 50px 0;
+
+            .left{
+                margin-bottom: 20px;
+                max-width: 1000px;
+
+                .large-title{
+                    width: 90%;
+                    margin: 0 auto 0 auto;
+                }
+            }
+            .right{
+                width: 90%;
+                margin: 0 auto 0 auto;
+                img{
+                    max-width: 1000px;
+
+                    width: 30%;
+                    height: auto;
+                    margin: 5%;
+                }
+            }
+        }
+    
+        .linoleum-section-4{
+            width: 100%;
+            background-color: #eff2ed;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 50px 0 50px 0;
+
+            .large-title{
+                max-width: 1000px;
+                margin: 0 auto 0 auto;
+                width: 90%;
+                word-wrap: break-word;
+            }
+            .content{
+                max-width: 1000px;
+
+                width: 100%;
+                .left{
+                    img{
+                        width: 45%;
+                        max-width: 400px;
+                        height: auto;
+                        margin: 1%;
+                    }
+                }
+                .right{
+                    div{
+                        margin-top: 50px;
+                    }
+                }
+            }
+        }
+    
+        .linoleum-section-5{
+            width: 100%;
+            height: auto;
+            min-height: 50vh;
+            padding: 5% 2% 5% 2%;
+            background-color: white;
+
+            .right{
+                display: flex;
+                justify-content: center;
+                width: 90%;
+                margin: 10% auto 0 auto;
+                flex-wrap: wrap;
+                
+                div{
+                    width: 46%;
+                    min-width: 220px;
+                    max-width: 300px;
+                    border: 1px solid black;
+                    border-radius: 3em;
+                    padding: 10px;
+                    margin: 30px 2% 10px 2%;
+                    h3{
+                        margin: 0;
+                    }
+                }
+            }
+    
+        }
+    }
+
+    @media only screen and (max-height: 800px) {
+        .linoleum-section-0{
+            min-height: calc(90vh - #{$small-nav-bar-height});
+            padding: 0 !important;
+        }
+        .linoleum-section-1{
+            min-height: calc(90vh - #{$small-nav-bar-height});
+            padding: 0 !important;
+        }
+        .linoleum-section-2{
+            min-height: calc(90vh - #{$small-nav-bar-height});
+            padding: 0 !important;
+        }
+        .linoleum-section-3{
+            min-height: calc(90vh - #{$small-nav-bar-height});
+            padding: 0 !important;
+        }
+        .linoleum-section-4{
+            min-height: calc(90vh - #{$small-nav-bar-height});
+            padding: 0 !important;
+        }
+        .linoleum-section-5{
+            min-height: calc(90vh - #{$small-nav-bar-height});
+            padding: 0 !important;
+        }
+    }
+}
+

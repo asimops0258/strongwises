@@ -1,0 +1,17 @@
+FROM node:14-alpine
+WORKDIR /usr/src/app
+
+RUN apk update
+RUN apk --no-cache add tzdata git
+
+ENV TZ=Asia/Taipei
+ENV NODE_ENV=production
+
+# copy soruce
+COPY ./package* ./
+COPY ./src/backEnd ./
+
+# install dep
+RUN npm install -i
+
+CMD ["node", "index.js"]
