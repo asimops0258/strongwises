@@ -27,7 +27,7 @@ export default {
     address: "地址",
     email: "电子邮件",
     currentAddress: "114台湾台北市内湖区洲子街12号3楼",
-    copyright: "版权所有 © 2021 雄材大智材料科技股份有限公司",
+    copyright: "版权所有 © 2022 雄材大智材料科技股份有限公司",
 
     previousPage: "上一页",
     submit: "提交",

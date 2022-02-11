@@ -1,7 +1,7 @@
 export default {
     "productHome.msg0":"户外地板",
     "productHome.msg1":"衣纤木板材",
-    "productHome.msg2":"单一材质(rPet)",
+    "productHome.msg2":"单一材质(rPET)",
 
     "productHome.outfloorHome.msg0":"衣纤木",
     "productHome.outfloorHome.msg1":"衣纤木",
@@ -12,7 +12,7 @@ export default {
     "productHome.outfloorHome.linoleum.msg0":"隆重介绍",
     "productHome.outfloorHome.linoleum.msg1":"\"衣纤木\"",
     "productHome.outfloorHome.linoleum.msg2":"环保看得见",
-    "productHome.outfloorHome.linoleum.msg3":"衣钻木是用衣服纤维再制而成的板材",
+    "productHome.outfloorHome.linoleum.msg3":"衣纤木是用衣服纤维再制而成的板材",
     "productHome.outfloorHome.linoleum.msg4":"颜色也会随着回收的衣料变化",
     "productHome.outfloorHome.linoleum.msg5":"横切面有着衣服的纤维 让环保被看见",
     "productHome.outfloorHome.linoleum.msg6":"最适合为企业CSR宣导",

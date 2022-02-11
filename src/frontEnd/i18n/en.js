@@ -27,7 +27,7 @@ export default {
     address: "Address",
     email: "E-mail",
     currentAddress: "3F., No. 12, Zhouzi St., Neihu Dist., Taipei City 114 , Taiwan (R.O.C.)",
-    copyright: "Copyright © 2021 Strong And Wise Material Tech Company",
+    copyright: "Copyright © 2022 Strong And Wise Material Tech Company",
 
     previousPage: "Previous Page",
     submit: "Submit",
