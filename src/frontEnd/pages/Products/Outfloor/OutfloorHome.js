@@ -7,7 +7,7 @@ const OutfloorHome = ()=>{
     const item = [
         {
             link:"/outfloor/linoleum",
-            image:"/images/Products/OutdoorFloor/WPCSecondGenerationPlasticWoodImprovedVersion.jpg",
+            image:"/images/Products/OutdoorFloor/ClothingFiber.jpg",
             title:<FormattedMessage id="productHome.outfloorHome.msg0" />,
             subTitle:"",
             subTitleClass:"",
@@ -22,7 +22,7 @@ const OutfloorHome = ()=>{
         },
         {
             link:"/outfloor/wpc",
-            image:"/images/Products/OutdoorFloor/ClothingFiber.jpg",
+            image:"/images/Products/OutdoorFloor/WPCSecondGenerationPlasticWoodImprovedVersion.jpg",
             title:<FormattedMessage id="productHome.outfloorHome.msg3" />,
             subTitle:<FormattedMessage id="productHome.outfloorHome.msg4" />,
             subTitleClass:"green-title"

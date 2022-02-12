@@ -79,7 +79,7 @@ export default {
     "productHome.linoleumIndoor.msg4":"衣纤木室内板材不仅可以切割、打钉、钻孔、拧螺丝还可以依照您的室内设计风格客制需要的颜色外层不吸水、膨胀、发霉，耐候、耐磨，抗刮、污、褪色最重要的是，依然环保，依然能无限回收再制成新品",
     "productHome.linoleumIndoor.msg5":"期待与你，家中相见",
     "productHome.linoleumIndoor.img0":"/images/Products/Linoleum/FoamProductInformation.png",
-    "productHome.linoleumIndoor.img1":"/images/Products/Linoleum/enNonFoamingProductInformation.png",
+    "productHome.linoleumIndoor.img1":"/images/Products/Linoleum/NonFoamingProductInformation.png",
 
     "productHome.SingleMaterial.msg0":"让我们解决衣服不能完全回收的问题",
     "productHome.SingleMaterial.msg1":"衣服上常见的三配件",
