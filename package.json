@@ -11,19 +11,7 @@
     "start-backend": "node src/backEnd/index.js",
     "build": "react-app-rewired build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/web-team-nfu/strongwises.git"
-  },
-  "keywords": [
-    "web"
-  ],
-  "author": "nfu",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/web-team-nfu/strongwises/issues"
-  },
-  "homepage": "https://github.com/web-team-nfu/strongwises#readme",
+  "homepage": ".",
   "dependencies": {
     "antd": "^4.15.5",
     "axios": "^0.21.1",
