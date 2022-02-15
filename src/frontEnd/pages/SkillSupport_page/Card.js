@@ -1,4 +1,4 @@
-import "./Card1.scss";
+import "./Card.scss";
 
 // 顯示圖片的模組
 // mode == img-library 圖片周圍會加上border
