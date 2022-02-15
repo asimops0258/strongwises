@@ -48,4 +48,4 @@ const Test_Report = ()=>{
     )
 }
 
-export default OutfloorHome;
+export default Test_Report;
