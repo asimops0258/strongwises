@@ -1,0 +1,18 @@
+export default {
+    "aboutUs.msg0": "雄材大智",
+    "aboutUs.msg1": "更耐用 環保 愛地球",
+    "aboutUs.msg2": "首",
+    "aboutUs.msg3": "創",
+    "aboutUs.msg4": "快時尚，也加快了地球毀滅的速度",
+    "aboutUs.msg5": "全球首創",
+    "aboutUs.msg6": "利用回收廢舊衣和布料來製造戶外耐候高要求的建材",
+    "aboutUs.msg7": "永續",
+    "aboutUs.msg8": "回收的寶特瓶可以再製成衣服",
+    "aboutUs.msg9": "但，之後就再無價值了嗎？",
+    "aboutUs.msg10": "雄材大智做到了！",
+    "aboutUs.msg11": "Dr.林將回收物製成的服飾",
+    "aboutUs.msg12": "再製成更為永續使用的建材",
+    "aboutUs.msg13": "環保",
+    "aboutUs.msg14": "更耐用、更環保、更愛地球",
+    "aboutUs.msg15": "選擇雄材大智，解決戶外建材不夠耐用，同時為地球的永續經營出一份力",
+}
