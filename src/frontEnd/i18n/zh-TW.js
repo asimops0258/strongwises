@@ -1,10 +1,10 @@
-import contact from "./contact/zh-CN.js";
-import actualCase from "./actualCase/zh-CN.js";
-import SkillSupport from "./skillsupport/zh-CN.js";
-import productHome from "./products/zh-CN.js";
-import aboutUs from "./aboutUs/zh-CN.js";
-import report from "./report/zh-CN.js";
-import home from "./home/zh-CN.js";
+import contact from "./contact/zh-TW.js";
+import actualCase from "./actualCase/zh-TW.js";
+import SkillSupport from "./skillsupport/zh-TW.js";
+import productHome from "./products/zh-TW.js";
+import aboutUs from "./aboutUs/zh-TW.js";
+import report from "./report/zh-TW.js";
+import home from "./home/zh-TW.js";
 export default {
     ...SkillSupport,
     ...contact,

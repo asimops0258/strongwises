@@ -20,7 +20,7 @@ const ScrollToTop = () => {
 }
 
 const Root = () => {
-  const [locale, setLocale] = useState('zh-TW');
+  const [locale, setLocale] = useState('en');
   let messages;
 
   useEffect(() => {
@@ -31,17 +31,19 @@ const Root = () => {
     }
   }, []);
 
-  if (locale.includes('cn')) {
-    messages = cn;
-  } else if (locale.includes('tw')){
-    messages = tw;
-  }else{
+  if (locale.includes('en')) {
     messages = en;
+  } else if (locale.includes('zh-CN')){
+    messages = cn;
+  } else if (locale.includes('zh-HK')){
+    messages = cn;
+  } else{
+      messages = tw;
   }
 
   return (
     <HashRouter>
-      <IntlProvider locale={locale} messages={messages} defaultLocale="zh-TW">
+      <IntlProvider locale={locale} messages={messages} defaultLocale="en">
         <React.StrictMode>
           <ScrollToTop />
           <Switch>
