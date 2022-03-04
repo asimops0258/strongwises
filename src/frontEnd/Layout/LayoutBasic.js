@@ -41,16 +41,16 @@ const LayoutBasic = ({ setLocale }) => {
 
   const acceptLanguage = [
     {
-      language: "zh-TW",
-      name: "繁體中文"
+      language: "en",
+      name: "English"
     },
     {
       language: "zh-CN",
       name: "简体中文"
     },
     {
-      language: "en",
-      name: "English"
+      language: "zh-TW",
+      name: "繁體中文"
     }
   ]
 
