@@ -78,8 +78,8 @@ export default {
     "productHome.linoleumIndoor.msg3":"裝修、色彩、八大優點，缺一不可",
     "productHome.linoleumIndoor.msg4":"衣纖木室內板材不僅可以切割、打釘、鑽孔、擰螺絲還可以依照您的室內設計風格客制需要的顏色外層不吸水、膨脹、發霉，耐候、耐磨，抗刮、污、褪色最重要的是，依然環保，依然能無限回收再製成新品",
     "productHome.linoleumIndoor.msg5":"期待與你，家中相見",
-    "productHome.linoleumIndoor.img0":"/images/Products/Linoleum/FoamProductInformation.png",
-    "productHome.linoleumIndoor.img1":"/images/Products/Linoleum/NonFoamingProductInformation.png",
+    "productHome.linoleumIndoor.img0":"/images/Products/Linoleum/twFoamProductInformation.png",
+    "productHome.linoleumIndoor.img1":"/images/Products/Linoleum/twNonFoamingProductInformation.png",
 
     "productHome.SingleMaterial.msg0":"讓我們解決衣服不能完全回收的問題",
     "productHome.SingleMaterial.msg1":"衣服上常見的三配件",
