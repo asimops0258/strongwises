@@ -20,7 +20,7 @@ const ScrollToTop = () => {
 }
 
 const Root = () => {
-  const [locale, setLocale] = useState('en');
+  const [locale, setLocale] = useState(navigator.language);
   let messages;
 
   useEffect(() => {
@@ -43,7 +43,7 @@ const Root = () => {
 
   return (
     <HashRouter>
-      <IntlProvider locale={locale} messages={messages} defaultLocale="en">
+      <IntlProvider locale={locale} messages={messages} defaultLocale={setLocale} >
         <React.StrictMode>
           <ScrollToTop />
           <Switch>
