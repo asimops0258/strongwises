@@ -1,120 +1,263 @@
-.contactus-container {
+.linoleum_indoor-container{
     width: 100%;
-    height: auto;
-    margin: 0px auto 20px auto;
-    padding: 5vh 0px 0px 0px;
-    background-color: white;
+    background-color:white;
+    margin: 0 auto 0 auto;
+    .linoleum_indoor-item-1{
+        width: 100%;
+        height: 758px;
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+        background-image: url("../../../images/IndoorSheetCoverMap.png");
+        background-color: white;
+        background-size: 1919px 758px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        .title-font-black{
+            font-weight: bold;
+            font-size: 8em;
 
-    .contactus-box {
-        max-width: 800px;
-        margin: auto;
-        .findus {
-            .findus-item {
-                ul li h4{
-                    text-align: left;
-                    margin-top: 5px;
-                }
+        }
+        .title-2{
+            font-weight: bold;
+            font-size:6em;
+            color: #707070;
+        }
+    }
+    .linoleum_indoor-item-2{
+        width: 100%;
+        height: auto;
+        .title-content-up{
+            background-color:white;
+            height: 15%;
+            margin: 5% 0;
+            text-align: center;
+            .title-font-black{
+                font-weight: bold;
+                font-size: 5em;
+            }
+        }
+       .title-content-down{
+           display: flex;
+           justify-content:space-around;
+           .title-content-right{
+            width: 42.5%;
+            img{
+                margin: 0 2.5% 0 5%;
+                width: 100%;
+            }
+           }
+           .title-content-left{
+            width: 42.5%;
+            img{
+                margin: 0 5% 0 2.5%;
+                width: 100%;
+            }
+           }
+       }
+    }
+    .linoleum_indoor-item-3{
+        width: 100%;
+        margin: 10% 0 5% 0;
+        .title-content{
+            .title-font-black{
+                margin-bottom: 5%;
+                text-align: center;
+                font-weight: bold;
+                font-size: 5em;
+            }
+            h3{
+                margin: 0 15%;
+                text-align: left;
+                font-weight: bold;
+                font-size: 3em;
+                color:#535353;
+            }
+        }
+    }
+    .linoleum_indoor-item-4{
+        .linoleum_indoor-title-content-up{
+           img{
+            width: 90%;
+            text-align: center;
+           }
+        }
+        .title-content{
+            height: 15%;
+            text-align: center;
+            .title-font-black{
+                font-weight: bold;
+                margin: 5% 0;
+                font-size: 5em;
             }
         }
 
-        .contactus {
-            .contactus-item {
-                h4 {
-                    text-align: left;
-                    margin-top: 10px;
-                }
+    }
+    .linoleum_indoor-item-5{
+        .linoleum_indoor-title-content-up{
+           img{
+            width: 90%;
+            text-align: center;
+           }
+        }
+        .title-content{
+            height: 15%;
+            text-align: center;
+            .title-font-black{
+                font-weight: bold;
+                margin: 5% 0;
+                font-size: 5em;
+            }
+        }
 
-                form label,
-                input,
-                textarea,
-                .buttonBox {
-                    width: 100%;
+    }
+    @media only screen and (min-width: 700px) and (max-width: 1050px) {
+        .linoleum_indoor-item-1{
+            .title-font-black{
+                font-size: 7em;
+            }
+            .title-2{
+                font-size:5em;
+            }
+        }
+        .linoleum_indoor-item-2{
+            .title-content-up{
+                .title-font-black{
+                    font-size:3em;
                 }
-
-                input,
-                textarea {
+            }
+        }
+        .linoleum_indoor-item-3{
+            .title-content{
+                .title-font-black{
+                    font-size: 3em;
+                }
+                h3{
+                    margin: 0 5%;
+                    font-size: 2em;
+                }
+            }
+        }
+        .linoleum_indoor-item-4{
+            .title-content{
+                .title-font-black{
+                    font-size: 4em;
+                }
+            }
+        }
+        .linoleum_indoor-item-5{
+            .title-content{
+                .title-font-black{
+                    font-size: 4em;
+                }
+            }
+        }
+    }
+    @media all and (min-width: 450px)and (max-width: 699px) {
+        .linoleum_indoor-item-1{
+            height: 300pt;
+            overflow: hidden;
+            .title-font-black{
+                font-size: 4em;
+            }
+            .title-2{
+                font-size:3em;
+            }
+        }
+        .linoleum_indoor-item-2{
+            .title-content-up{
+                .title-font-black{
+                    font-size:2em;
+                }
+            }
+        }
+        .linoleum_indoor-item-3{
+            .title-content{
+                .title-font-black{
+                    font-size: 2em;
+                }
+                h3{
+                    margin: 0 5%;
                     font-size: 1.5em;
-                    padding: 5px;
-                    border: solid 1px #ccc;
-                    border-radius: 10px;
-                    outline: none;
-                    &:focus {
-                        border: solid 2px #007c45;
-                    }
                 }
-
-                textarea {
-                    min-height: 300px;
-                    resize: none;
+            }
+        }
+        .linoleum_indoor-item-4{
+            .title-content{
+                .title-font-black{
+                    font-size: 3em;
                 }
-
-                .buttonBox {
-                    text-align: right;
-                }
-
-                button {
-                    margin-top: 5px;
-                    width: 100px;
-                    height: 30px;
-                    color: #fff;
-                    border: none;
-                    border-radius: 10px;
-                    background-color: #74b247;
-
-                    &:hover {
-                        background-color: #3e8f04;
-                        cursor: pointer;
-                    }
+            }
+        }
+        .linoleum_indoor-item-5{
+            .title-content{
+                .title-font-black{
+                    font-size: 3em;
                 }
             }
         }
     }
-}
-
-.sendcomplete-container {
-    width: 100%;
-    max-width: 800px;
-    height: calc(100vh - 81px - 228px);
-    margin: auto;
-    background-color: white;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-
-    .complete-icon {
-        font-size: 80px;
-        font-weight: 100;
-    }
-
-    .complete-text {
-        font-weight: 1000;
-        font-size: 40px;
-    }
-}
-
-@media all and (max-width: 959px) {
-    .contactus-container .contactus-box {
-        max-width: 600px;
-        margin: auto;
-
-        .contactus .contactus-item input,
-        textarea {
-            font-size: 1.1em;
+    @media all and (max-width: 450px) {
+        .linoleum_indoor-item-1{
+            height: 150pt;
+            overflow: hidden;
+            .title-font-black{
+                font-size: 2.5em;
+            }
+            .title-2{
+                font-size:2em;
+            }
         }
-    }
-}
-
-@media all and (max-width: 759px) {
-    .contactus-container .contactus-box {
-        max-width: 500px;
-        margin: auto;
-    }
-}
-
-@media all and (max-width: 559px) {
-    .contactus-container .contactus-box {
-        max-width: 360px;
-        margin: auto;
+        .linoleum_indoor-item-2{
+            .title-content-up{
+                .title-font-black{
+                    font-size:1.75em;
+                }
+            }
+            .title-content-down{
+                flex-direction: column;
+                .title-content-right{
+                 width: 100%;
+                 img{
+                     margin: 0;
+                     width: 100%;
+                 }
+                }
+                .title-content-left{
+                 width: 100%;;
+                 img{
+                     margin: 0;
+                     width: 100%;
+                 }
+                }
+            }
+        }
+        .linoleum_indoor-item-3{
+            margin: 5% 0;
+            .title-content{
+                .title-font-black{
+                    font-size: 1.4em;
+                }
+                h3{
+                    margin: 0 5%;
+                    font-size: 1em;
+                }
+            }
+        }
+        .linoleum_indoor-item-4{
+            .title-content{
+                .title-font-black{
+                    font-size: 2em;
+                }
+            }
+        }
+        .linoleum_indoor-item-5{
+            .title-content{
+                .title-font-black{
+                    font-size: 2em;
+                }
+            }
+        }
     }
 }

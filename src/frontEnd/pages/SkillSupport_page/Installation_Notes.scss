@@ -22,6 +22,10 @@
                 color: #74B247;
             }
         }
+        img{
+            margin: 0;
+            width: 75%;
+        }
     }
     @media all and (min-width: 480px) and (max-width: 959px) {
         .installation_notes-item-img{
@@ -32,6 +36,10 @@
             margin: 4% 0px;
             a{
                 font-size: 2.5em;  
+            }
+            img{
+                margin: 0;
+                width: 75%;
             }
 
         }
@@ -45,6 +53,10 @@
             margin: 2.5% 0px;
             a{
                 font-size: 2em;  
+            }
+            img{
+                margin: 0;
+                width: 75%;
             }
         }
     }

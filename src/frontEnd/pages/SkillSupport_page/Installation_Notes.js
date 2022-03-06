@@ -12,7 +12,7 @@ const Installation_Notes = () => {
         
             </div>
             <div className="installation_notes-item-title">
-                <h1><Link to='/skillSupport'> <FormattedMessage id="Installation_Notes.title" /> </Link></h1>
+                <img src={intl.formatMessage({ id: 'Installation_Notes.img0' })}></img>
             </div>
         </div>
     )

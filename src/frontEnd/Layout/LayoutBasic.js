@@ -106,6 +106,10 @@ const LayoutBasic = ({ setLocale }) => {
       name: <FormattedMessage id="report" />,
       path: "/report",
     },
+    {
+      name: <FormattedMessage id="contactUs" />,
+      path: "/contactus",
+    },
   ];
 
   const leftFooter = [

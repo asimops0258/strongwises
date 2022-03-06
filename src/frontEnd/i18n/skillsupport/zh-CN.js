@@ -49,4 +49,5 @@ export default {
     "Test_Report.content_7":"(國家標準)中國國家建築裝修材質質量檢驗報告",
     "Test_Report.content_8":"皮層物性檢測報告",
     "Installation_Notes.title":"维修中",
+    "Installation_Notes.img0":"/images/skillsupport/Installation_Notes/Installation_Notes.jpg",
 }

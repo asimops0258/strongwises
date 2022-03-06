@@ -1,0 +1,120 @@
+.contactus-container {
+    width: 100%;
+    height: auto;
+    margin: 0px auto 20px auto;
+    padding: 5vh 0px 0px 0px;
+    background-color: white;
+
+    .contactus-box {
+        max-width: 800px;
+        margin: auto;
+        .findus {
+            .findus-item {
+                ul li h4{
+                    text-align: left;
+                    margin-top: 5px;
+                }
+            }
+        }
+
+        .contactus {
+            .contactus-item {
+                h4 {
+                    text-align: left;
+                    margin-top: 10px;
+                }
+
+                form label,
+                input,
+                textarea,
+                .buttonBox {
+                    width: 100%;
+                }
+
+                input,
+                textarea {
+                    font-size: 1.5em;
+                    padding: 5px;
+                    border: solid 1px #ccc;
+                    border-radius: 10px;
+                    outline: none;
+                    &:focus {
+                        border: solid 2px #007c45;
+                    }
+                }
+
+                textarea {
+                    min-height: 300px;
+                    resize: none;
+                }
+
+                .buttonBox {
+                    text-align: right;
+                }
+
+                button {
+                    margin-top: 5px;
+                    width: 100px;
+                    height: 30px;
+                    color: #fff;
+                    border: none;
+                    border-radius: 10px;
+                    background-color: #74b247;
+
+                    &:hover {
+                        background-color: #3e8f04;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.sendcomplete-container {
+    width: 100%;
+    max-width: 800px;
+    height: calc(100vh - 81px - 228px);
+    margin: auto;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+    .complete-icon {
+        font-size: 80px;
+        font-weight: 100;
+    }
+
+    .complete-text {
+        font-weight: 1000;
+        font-size: 40px;
+    }
+}
+
+@media all and (max-width: 959px) {
+    .contactus-container .contactus-box {
+        max-width: 600px;
+        margin: auto;
+
+        .contactus .contactus-item input,
+        textarea {
+            font-size: 1.1em;
+        }
+    }
+}
+
+@media all and (max-width: 759px) {
+    .contactus-container .contactus-box {
+        max-width: 500px;
+        margin: auto;
+    }
+}
+
+@media all and (max-width: 559px) {
+    .contactus-container .contactus-box {
+        max-width: 360px;
+        margin: auto;
+    }
+}
