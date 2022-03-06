@@ -45,6 +45,13 @@ const ActualCase = () => {
       imagePath: "images/actualcase/Art/",
       sub: ["海大裝置藝術案"],
       length: [16]
+    },
+    {
+      name: <FormattedMessage id="actualCase.tianjin" />,
+      folderName: "天津展",
+      imagePath: "images/actualcase/Tianjin/",
+      sub: ["天津展"],
+      length: [8]
     }
   ]
 
@@ -155,6 +162,13 @@ const ImageLibrary = () => {
       imagePath: "images/actualcase/Art/",
       sub: ["海大裝置藝術案"],
       length: [16]
+    },
+    {
+      name: <FormattedMessage id="actualCase.tianjin" />,
+      folderName: "天津展",
+      imagePath: "images/actualcase/Tianjin/",
+      sub: ["天津展"],
+      length: [8]
     }
   ]
 

@@ -6,26 +6,57 @@ import { FormattedMessage } from "react-intl";
 const Test_Report = ()=>{
     const item = [
         {
-            link:"skillsupport_page/test_report/linoleum",
+            link:"/outfloor/linoleum",
             image:"/images/Products/OutdoorFloor/ClothingFiber.jpg",
-            title:<FormattedMessage id="productHome.outfloorHome.msg0" />,
+            title:<FormattedMessage id="Test_Report.content_7" />,
             subTitle:"",
             subTitleClass:"",
         },
         {
-            link:"skillsupport_page/test_report/linoleumLite",
+            link:"/outfloor/linoleumLite",
             image:"/images/Products/OutdoorFloor/ClothingFiberLite.jpeg",
-            title:<FormattedMessage id="productHome.outfloorHome.msg1" />,
-            subTitle:<FormattedMessage id="productHome.outfloorHome.msg2" />,
-            subTitleClass:"rainbow-title",
+            title:<FormattedMessage id="Test_Report.content_8" />,
+            subTitle:"",
+            subTitleClass:"",
 
         },
         {
-            link:"skillsupport_page/test_report/wpc",
+            link:"/outfloor/wpc",
             image:"/images/Products/OutdoorFloor/WPCSecondGenerationPlasticWoodImprovedVersion.jpg",
-            title:<FormattedMessage id="productHome.outfloorHome.msg3" />,
-            subTitle:<FormattedMessage id="productHome.outfloorHome.msg4" />,
-            subTitleClass:"green-title"
+            title:<FormattedMessage id="Test_Report.content_1" />,
+            subTitle:"",
+            subTitleClass:""
+        },
+        {
+            link:"/outfloor/wpc",
+            image:"/images/Products/OutdoorFloor/WPCSecondGenerationPlasticWoodImprovedVersion.jpg",
+            title:<FormattedMessage id="Test_Report.content_2" />,
+            subTitle:"",
+            subTitleClass:""
+        }
+        ,
+        {
+            link:"/outfloor/wpc",
+            image:"/images/Products/OutdoorFloor/WPCSecondGenerationPlasticWoodImprovedVersion.jpg",
+            title:<FormattedMessage id="Test_Report.content_4" />,
+            subTitle:"",
+            subTitleClass:""
+        }
+        ,
+        {
+            link:"/outfloor/wpc",
+            image:"/images/Products/OutdoorFloor/WPCSecondGenerationPlasticWoodImprovedVersion.jpg",
+            title:<FormattedMessage id="Test_Report.content_5" />,
+            subTitle:"",
+            subTitleClass:""
+        }
+        ,
+        {
+            link:"/outfloor/wpc",
+            image:"/images/Products/OutdoorFloor/WPCSecondGenerationPlasticWoodImprovedVersion.jpg",
+            title:<FormattedMessage id="Test_Report.content_6" />,
+            subTitle:"",
+            subTitleClass:""
         }
     ]
 

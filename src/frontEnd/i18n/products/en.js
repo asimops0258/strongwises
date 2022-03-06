@@ -81,6 +81,7 @@ export default {
                                         expansion proof, mold proof, anti-scratch, anti-stain, anti-fade, more importantly it is eco-friendly\
                                         and able to remanufacture into new even after ten years of use.",
     "productHome.linoleumIndoor.msg5":"Meet us , in your house",
+    "productHome.linoleumIndoor.msg6":"EDM",
     "productHome.linoleumIndoor.img0":"/images/Products/Linoleum/enFoamProductInformation.png",
     "productHome.linoleumIndoor.img1":"/images/Products/Linoleum/enNonFoamingProductInformation.png",
 

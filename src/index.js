@@ -37,8 +37,10 @@ const Root = () => {
     messages = cn;
   } else if (locale.includes('zh-HK')){
     messages = cn;
-  } else{
+  } else if (locale.includes('zh-TW')){
     messages = tw;
+  } else {
+    messages = en;
   }
 
   return (

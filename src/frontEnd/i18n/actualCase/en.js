@@ -3,4 +3,5 @@ export default {
     "actualCase.creativeIndustries": "Culture And Creative Product",
     "actualCase.companyCSR": "Company CSR Project",
     "actualCase.installationArt": "Installation Art",
+    "actualCase.tianjin": "Tianjin Exhibition",
 }

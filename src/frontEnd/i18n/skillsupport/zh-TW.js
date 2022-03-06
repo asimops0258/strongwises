@@ -37,8 +37,8 @@ export default {
     "QandA.content_18":"我們的產品可以回收重新再造成新顏色的地板只需提供相對應的施工費與加工費。",
     "QandA.title_10":"可以使用原先的骨架嗎?",
     "QandA.content_19":"需請專人評估後才能確認是否能使用原先的骨架。",
-    //"Test_Report.title_1":"衣纖木",
-    /* "Test_Report.title_2":"衣纖木Lite",
+    "Test_Report.title_1":"衣纖木",
+    "Test_Report.title_2":"衣纖木Lite",
     "Test_Report.title_3":"WPC二代改良木",
     "Test_Report.content_1":"台灣綠建材之放射性檢測報告",
     "Test_Report.content_2":"重金屬檢測報告",
@@ -47,6 +47,6 @@ export default {
     "Test_Report.content_5":"台灣塑木規範-材料物性報告",
     "Test_Report.content_6":"無甲醛(voc)檢驗報告",
     "Test_Report.content_7":"(國家標準)中國國家建築裝修材質質量檢驗報告",
-    "Test_Report.content_8":"皮層物性檢測報告", */
+    "Test_Report.content_8":"皮層物性檢測報告",
     "Installation_Notes.title":"維修中",
 }

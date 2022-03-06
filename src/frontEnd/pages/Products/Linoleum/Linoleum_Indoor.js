@@ -50,6 +50,19 @@ const Linoleum_Indoor = () => {
                     </h1>
                 </dic>
             </div>
+
+            <hr></hr>
+
+            <div className="linoleum_indoor-item-5">
+                <dic className="title-content">
+                    <h1 className="title-font-black font-dark-green">
+                    <FormattedMessage id="productHome.linoleumIndoor.msg6" />
+                    </h1>
+                </dic>
+                <div className="linoleum_indoor-title-content-up">
+                    <img src={"/images/Products/Linoleum/EFWOOD.png"}></img>
+                </div>
+            </div>
             
         </div>
     )
