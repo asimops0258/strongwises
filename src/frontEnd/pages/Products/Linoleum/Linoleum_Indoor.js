@@ -51,7 +51,7 @@ const Linoleum_Indoor = () => {
                 </dic>
             </div>
 
-            <hr></hr>
+{/*             <hr></hr>
 
             <div className="linoleum_indoor-item-5">
                 <dic className="title-content">
@@ -62,7 +62,7 @@ const Linoleum_Indoor = () => {
                 <div className="linoleum_indoor-title-content-up">
                     <img src={"/images/Products/Linoleum/EFWOOD.png"}></img>
                 </div>
-            </div>
+            </div> */}
             
         </div>
     )

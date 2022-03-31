@@ -156,6 +156,20 @@ const Linoleum = () => {
 
                 </div>
 
+
+                <hr></hr>
+
+                <div className="linoleum-section-6">
+                    <dic className="title-content">
+                        <h1 className="title-font-black font-dark-green">
+                        <FormattedMessage id="productHome.outfloorHome.linoleum.msg26" />
+                        </h1>
+                    </dic>
+                    <div className="linoleum-section-title-content-up">
+                        <img src={"/images/Products/Linoleum/EFWOOD.png"}></img>
+                    </div>
+                </div>
+
             </div>
         </Scrolled>
     )

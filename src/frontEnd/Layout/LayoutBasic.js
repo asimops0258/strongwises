@@ -2,7 +2,7 @@ import "./LayoutBasic.scss"
 import { useEffect, useState } from "react";
 import { Route, Link } from "react-router-dom";
 import { FormattedMessage } from "react-intl";
-import navLogo from "../images/head-logo.png";
+import navLogo from "../images/head-logo.png"; //導覽列logo
 
 //load react-icons
 import { AiFillPhone } from "react-icons/ai";
@@ -16,6 +16,7 @@ import Home from "../pages/Home";
 import AboutUs from "../pages/AboutUs";
 import SkillSupport from "../pages/SkillSupport";
 import Report from "../pages/Report";
+import Contact from "../pages/ContactUs";
 import QandA from "../pages/SkillSupport_page/QandA";
 import Test_Report from "../pages/SkillSupport_page/Test_Report";
 import Installation_Notes from "../pages/SkillSupport_page/Installation_Notes";
@@ -196,6 +197,7 @@ const LayoutBasic = ({ setLocale }) => {
         <Route exact path="/skillSupport" component={SkillSupport} />
         <Route exact path="/report" component={Report}/>
         <Route exact path="/actualCase" component={ActualCase} />
+        <Route exact path="/ContactUs" component={Contact} />
         <Route exact path="/actualCase/imageLibrary" component={ImageLibrary}/>
 
         <Route exact path="/productHome" component={ProductHome}/>

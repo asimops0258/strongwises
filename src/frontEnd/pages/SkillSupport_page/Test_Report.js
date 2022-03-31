@@ -50,56 +50,24 @@ const Test_Report = () => {
             
             <div className="Test_Report-item-dwon">
                 
-                <div className="Test_Report-item-title" >
+                <div className="Test_Report-item-title">
                     <h2><FormattedMessage id="Test_Report.title_2" /></h2>
-                    <a href={PDF_7} target="_blank"><img src="/images/skillsupport/lite/1.png" width="20%" height="20%"></img>
-                    <br></br>
-                    <FormattedMessage id="Test_Report.content_7" /></a>
-                    <br></br>
+                    <a href={PDF_7} target="_blank"><FormattedMessage id="Test_Report.content_7" /></a><br></br>
                 </div>
 
                 
                 <div className="Test_Report-item-title">
                     <h2><FormattedMessage id="Test_Report.title_3" /></h2>
-                    <a href={PDF_8} target="_blank"><img src="/images/skillsupport/wpc/1.png" width="20%" height="20%"></img>
-                    <br></br>
-                    <FormattedMessage id="Test_Report.content_8" /></a>
-                    <br></br>
-                    </div>
+                    <a href={PDF_8} target="_blank"><FormattedMessage id="Test_Report.content_8" /></a><br></br>
+                </div>
 
                 <div className="Test_Report-item-title">
                     <h2><FormattedMessage id="Test_Report.title_1" /></h2>
-                    <div class="row">
-                        <div class="col">
-                            <a href={PDF_1} target="_blank"><img src="/images/skillsupport/wood/1.png" width="50%" height="50%"></img>
-                            <br></br>
-                            <FormattedMessage id="Test_Report.content_1" /></a>
-                            <br></br>
-                        </div>
-                        <div class="col">
-                            <a href={PDF_2} target="_blank"><img src="/images/skillsupport/wood/2.png" width="50%" height="50%"></img>
-                            <br></br>
-                            <FormattedMessage id="Test_Report.content_2" /></a>
-                            <br></br>
-                        </div>
-                        <div class="col">
-                            <a href={PDF_4} target="_blank"><img src="/images/skillsupport/wood/3.png" width="50%" height="50%"></img>
-                            <br></br>
-                            <FormattedMessage id="Test_Report.content_4" /></a>
-                            <br></br>
-                        </div>
-                        <div class="col">
-                            <a href={PDF_5} target="_blank"><img src="/images/skillsupport/wood/4.png" width="50%" height="50%"></img>
-                            <br></br>
-                            <FormattedMessage id="Test_Report.content_5" /></a>
-                            <br></br>
-                        </div>
-                        <div class="col">
-                            <a href={PDF_6} target="_blank"><img src="/images/skillsupport/wood/5.png" width="50%" height="50%"></img>
-                            <br></br>
-                            <FormattedMessage id="Test_Report.content_6" /></a>
-                        </div>
-                    </div>
+                        <a href={PDF_1} target="_blank"><FormattedMessage id="Test_Report.content_1" /></a><br></br>
+                        <a href={PDF_2} target="_blank"><FormattedMessage id="Test_Report.content_2" /></a><br></br>
+                        <a href={PDF_4} target="_blank"><FormattedMessage id="Test_Report.content_4" /></a><br></br>
+                        <a href={PDF_5} target="_blank"><FormattedMessage id="Test_Report.content_5" /></a><br></br>
+                        <a href={PDF_6} target="_blank"><FormattedMessage id="Test_Report.content_6" /></a>
                 </div>
 
             </div>

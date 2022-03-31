@@ -1,8 +1,6 @@
 export default {
-    "contact.findUs": "Find Us",
-    "contact.orContactUs": "Or, Contact Us",
-    "contact.name": "Name",
-    "contact.email": "Email",
-    "contact.yourMessage": "Your Message",
-    "contact.send": "I have received your message, we will contact you as soon as possible."
+    "contact.carousel-light1": "images/Carousel/enFoundUs.png",
+    "contact.carousel-light2": "images/Carousel/enContactUs.png",
+    "contact.carousel-left": "images/ContactUs/enFoundUs.png",
+    "contact.carousel-right": "images/ContactUs/enContactUs.png"
 }

@@ -5,7 +5,7 @@ export default {
     "report.msg2":"Events",
 
     "report.news.msg0": "大老板联盟-节目片段",
-    "report.news.msg1": "金鱼脑-Youtuber访谈",
+    // "report.news.msg1": "金鱼脑-Youtuber访谈",
     "report.news.msg2": "消失的国界",
     "report.news.msg3": "创业加请上车-节目片段",
 

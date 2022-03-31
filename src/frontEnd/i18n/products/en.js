@@ -35,6 +35,7 @@ export default {
     "productHome.outfloorHome.linoleum.msg23":"length 2200mm/ weight 8.1kg",
     "productHome.outfloorHome.linoleum.msg24":"Thickness 30mm/ wide 180mm",
     "productHome.outfloorHome.linoleum.msg25":"length 2200mm/weight 10.8kg",
+    "productHome.outfloorHome.linoleum.msg26":"EDM",
 
     "productHome.outfloorHome.linoleumLite.msg0":"E F Wood Lite",
     "productHome.outfloorHome.linoleumLite.msg1":"\"Light than Before.\"",
@@ -81,7 +82,6 @@ export default {
                                         expansion proof, mold proof, anti-scratch, anti-stain, anti-fade, more importantly it is eco-friendly\
                                         and able to remanufacture into new even after ten years of use.",
     "productHome.linoleumIndoor.msg5":"Meet us , in your house",
-    "productHome.linoleumIndoor.msg6":"EDM",
     "productHome.linoleumIndoor.img0":"/images/Products/Linoleum/enFoamProductInformation.png",
     "productHome.linoleumIndoor.img1":"/images/Products/Linoleum/enNonFoamingProductInformation.png",
 

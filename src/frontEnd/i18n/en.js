@@ -18,7 +18,7 @@ export default {
     aboutUs: "About us",
     productIntor: "Products",
     skillSupport: "Tech. support",
-    actualCase: "Case Study",
+    actualCase: "Actual Case",
     report: "Related media report",
     contactUs: "Contact Us",
 

@@ -77,7 +77,9 @@ const Home = () => {
 
                     </div>
                     <div className="home-item-img">
-                            <a href="https://youtu.be/2TnS8n-W-KI"><img src={intl.formatMessage({ id: 'home.carousel-right' })} alt="home-right-photo"></img></a>
+                        <Link to="/Report">
+                            <img src={intl.formatMessage({ id: 'home.carousel-right' })} alt="home-right-photo"></img>
+                        </Link>
                     </div>
                     <div className="home-item-content">
 

@@ -5,9 +5,9 @@ export default {
     "report.msg2":"活動",
 
     "report.news.msg0": "大老闆聯盟-節目片段",
-    "report.news.msg1": "金魚腦-Youtuber訪談",
+    // "report.news.msg1": "金魚腦-Youtuber訪談",
     "report.news.msg2": "消失的國界",
-    "report.news.msg3": "創業加請上車-節目片段",
+    "report.news.msg3": "創業家請上車-節目片段",
 
     "report.awards.msg0": "青年創新創業大賽",
     "report.awards.msg1": "創業大賽",

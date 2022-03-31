@@ -6,6 +6,25 @@
     background-color:white;
     margin: 0 auto 0 auto;
 
+    .linoleum-section-6{
+        .linoleum-section-title-content-up{
+           img{
+            width: 90%;
+            text-align: center;
+           }
+        }
+        .title-content{
+            height: 15%;
+            text-align: center;
+            .title-font-black{
+                font-weight: bold;
+                margin: 5% 0;
+                font-size: 5em;
+            }
+        }
+
+    }
+
     @media only screen and (max-width: 760px) {
 
         .linoleum-section-0{
@@ -181,6 +200,14 @@
                 }
             }
     
+        }
+
+        .linoleum-section-6{
+            .title-content{
+                .title-font-black{
+                    font-size: 2em;
+                }
+            }
         }
     }
     @media only screen and (min-width: 760px) {
@@ -372,6 +399,15 @@
             }
     
         }
+
+        .linoleum-section-6{
+            .title-content{
+                .title-font-black{
+                    font-size: 4em;
+                }
+            }
+        }
+        
     }
 
     @media only screen and (max-height: 800px) {
@@ -398,6 +434,13 @@
         .linoleum-section-5{
             min-height: calc(90vh - #{$small-nav-bar-height});
             padding: 0 !important;
+        }
+        .linoleum-section-6{
+            .title-content{
+                .title-font-black{
+                    font-size: 5em;
+                }
+            }
         }
     }
 }

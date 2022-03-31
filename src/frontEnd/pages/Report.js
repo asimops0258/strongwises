@@ -64,12 +64,12 @@ const Report = () => {
             image: "/images/Report/News/BigBossLeague.png",
             title: <FormattedMessage id="report.news.msg0" />
         },
-        {
+/*         {
             href: "https://youtu.be/2TnS8n-W-KI",
             type: "link",
             image: "/images/Report/News/GoldfishBrain.png",
             title: <FormattedMessage id="report.news.msg1" />
-        },
+        }, */
         {
             href: "https://youtu.be/7_aPPt6uOng",
             type: "link",
